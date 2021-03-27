@@ -1,0 +1,58 @@
+<style>
+    body{
+        text-align: center;
+        padding: 30px;
+    }
+    #card{
+        display: inline-block;
+        padding: 25px 50px 75px 100px;
+    }
+    #heading{
+        
+    }
+    h1{
+        text-align: center;
+        text-decoration: solid;
+        text-shadow: '8px';
+    }
+    label{
+        padding: 25px 50px 75px 100px;
+        text-align: center;
+        text-decoration: solid;
+        text-shadow: '8px';
+    }
+    
+</style>
+
+
+
+<body>
+    <div id="card">
+        <div id="heading">
+            <h1>
+                Report A Fault
+            </h1>
+            <br>
+        </div>
+       <div id="content">
+            <form method="POST">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="">
+                <br>
+                <label for="mtno">Meter Number</label>
+                <input type="text" id="mtno" name="mtno" placeholder="">
+                <br>
+                <label for="fdate">Date Started/Noticed</label>
+                <input type="date" id="fdate" name="date" placeholder="">
+                <br>
+                <label for="lname">Fault Description</label>
+                <input type="text" id="fault" name="fault" placeholder="fault is....">
+                <br>
+                <input type="submit" value="Submit">
+        
+            </form>
+       </div> 
+       
+    </div>
+    
+</body>
